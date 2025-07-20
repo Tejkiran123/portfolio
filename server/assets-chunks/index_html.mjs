@@ -1,7 +1,7 @@
 export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
   <meta charset="utf-8">
   <title>Kiranprofile</title>
-  <base href="/portfolio">
+  <base href="/portfolio/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles-5INURTSO.css"><style ng-app-id="ng">.container-box[_ngcontent-ng-c2138011261]{background-color:#fff;padding:20px;margin:10px 20px}.title[_ngcontent-ng-c2138011261]{text-align:center;font-size:25px;font-weight:800;margin-bottom:1rem}.title[_ngcontent-ng-c2138011261]   .angularTitle[_ngcontent-ng-c2138011261]{margin-top:.5rem}.info[_ngcontent-ng-c2138011261]{display:flex;gap:40px;justify-content:center;margin-top:1rem;font-size:18px;font-weight:500}.professionalSummaryTitle[_ngcontent-ng-c2138011261]{margin-top:.7rem;font-weight:600;font-size:16px}.sumaryContent[_ngcontent-ng-c2138011261]{margin-top:.5rem;font-weight:500;font-size:14px}.langs[_ngcontent-ng-c2138011261]{margin-top:.5rem}.datee[_ngcontent-ng-c2138011261]{float:right}.expYear[_ngcontent-ng-c2138011261]{margin-top:1rem;margin-bottom:.7rem;font-weight:600}</style></head>
