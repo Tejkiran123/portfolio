@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https//Tejkiran123.github.io/portfolio',
+  basePath: '/portfolio',
   supportedLocales: {
   "en-US": ""
 },
