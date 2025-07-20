@@ -1,0 +1,90 @@
+<div class="container-box">
+  <div class="title">Tej Kiran Kavali
+    <div class="angularTitle">Angular Fronted Developer</div>
+  </div>
+  <div class="row col-12 info">
+    <div class="col-3 email">
+      <!-- <img src="" alt="mail">  -->
+      {{emailId}}
+    </div>
+    <div class="col-3 phone"> {{phoneNumber}}
+    </div>
+    <div class="col-3 linkdin" routerLink="www.linkedin.com/in/tejkirankavali"> {{linkdIn}}
+    </div>
+    <div class="col-3 location">Hyderabad
+    </div>
+  </div>
+  <div class="col-12">
+    <hr />
+  </div>
+  <div class="professionalSummaryTitle">
+    {{professionalSummary}}
+  </div>
+  <div class="sumaryContent">
+    {{summaryContent}}
+  </div>
+  <div class="col-12">
+    <hr />
+  </div>
+  <div class="skillsTitle">
+    <b>SKILLS</b>
+  </div>
+  <div class="langs" *ngFor="let skill of skillsValue">
+    <div *ngFor="let item of skill | keyvalue">
+      <span><b>{{item.key}}: </b></span>
+      <span *ngFor="let tech of item.value">{{tech}} </span>
+    </div>
+  </div>
+  <div class="col-12">
+    <hr />
+  </div>
+  <div class="workExp">
+    <b> WORK EXPERIENCE </b>
+  </div>
+  <div class="expYear">
+    <span>Tata Consultancy Services</span>
+    <span class="datee">{{year}}</span>
+  </div>
+  <div *ngFor="let exp of expDetails ">
+    <div *ngFor="let detail of exp | keyvalue ">
+      <ul>
+        <li><span><b>{{detail.key}}: </b> </span>
+          <span>{{detail.value}}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="expYear">
+    <span>Cognizant Technology Solutions</span>
+    <span class="datee">{{year2}}</span>
+  </div>
+  <div *ngFor="let expDet of expDetails2">
+    <ul>
+      <li>{{expDet}}</li>
+    </ul>
+  </div>
+
+  <div class="col-12">
+    <hr />
+  </div>
+  <div><b>CERTIFICATIONS</b>
+    <div *ngFor="let certficate of certificationsData">
+      <ul>
+        <li>{{certficate}}</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-12">
+    <hr />
+  </div>
+
+  <div><b>EDUCATION</b>
+    <div>
+      <ul>
+        <li>{{education}}</li>
+      </ul>
+    </div>
+  </div>
+</div>

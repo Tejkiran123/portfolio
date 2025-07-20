@@ -1,0 +1,45 @@
+.container-box{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px 20px 10px 20px;
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+
+    .angularTitle{
+        margin-top: 0.5rem;
+    }
+}
+.info{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+.professionalSummaryTitle{
+    margin-top: 0.7rem;
+    font-weight: 600;
+    font-size: 16px;
+}
+.sumaryContent{
+    margin-top: 0.5rem;
+    font-weight: 500;
+    font-size: 14px;
+}
+.langs{
+    margin-top: 0.5rem;
+}
+.datee{
+   float: right;
+}
+
+.expYear{
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+    font-weight: 600;
+}
